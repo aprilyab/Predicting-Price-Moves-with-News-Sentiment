@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.sqlite3
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# Git
+*.orig
+*.rej
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Data folders
+data/raw/
+data/processed/
+*.csv
+*.zip
+*.tar
+*.gz
+
+# Virtual environments
+venv/
+.env/
+.env.*
+.venv/
+
+# Python testing
+.coverage
+pytest_cache/
+
+# Logs and reports
+logs/
+*.log
+reports/
+*.html
+
+# Ignore secrets or config files
+config.ini
+credentials.json
